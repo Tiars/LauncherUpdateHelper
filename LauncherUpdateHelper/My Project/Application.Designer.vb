@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.LauncherUpdateHelper.Form1
+            Me.MainForm = Global.LauncherUpdateHelper.UpdateNotification
         End Sub
     End Class
 End Namespace
